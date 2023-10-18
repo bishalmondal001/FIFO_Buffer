@@ -1,4 +1,4 @@
-module fifo_buffer (
+module fifo_buffer_asynchronous (
     input clk_write, // Clock for writing data
     input clk_read,  // Clock for reading data
     input rst,       // Reset input
